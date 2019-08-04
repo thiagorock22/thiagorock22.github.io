@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-4449159916427531",
+          enable_page_level_ads: true
+     });
+</script>   
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=uft-8" />
+    <meta http-equiv="Content-Language" content="pt-br" />
+    <meta name="keywords" content="cpf, gerador de cpf, validar cpf, gerador cpf, cpf gerador, gerar cpf, cpf generator, cpf brasil, gera cpf, cpf valido, valicação de cpf" />
+
+    <title>Gerador de CPF</title>
+</head>
+<body>
+<header>
+    <h1>Gerador CPF</h1>
+</header>
+<section>
+    <input id="result" type="text" />
+    <button id="gerar">Gerar</button>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- main-page -->
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-4449159916427531"
+        data-ad-slot="6826644563"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</section>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script>
+
+
+document.getElementById("gerar").addEventListener("click", function() {
+    $.get('gerador.php', function(response) {
+        document.getElementById("result").value = response;
+    });
+});
+</script>
+</body>
+</html>
